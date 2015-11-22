@@ -1,0 +1,167 @@
+/*
+Source+Sans+Pro:400,600|Syncopate:400,700' 
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Syncopate', sans-serif;
+Source+Sans+Pro:400,600|Syncopate:400,700
+*/
+
+
+
+body {
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #ccc;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    &:hover {
+        color: brown;
+    }
+}
+
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    &:hover {
+        color: darkgreen;
+    }
+}
+
+.container-fluid {
+    background: #fff;
+    .canvas_width {
+        max-width: 620px;
+    }
+}
+
+#dyn_content {
+    img {
+        padding: 5px 5px 25px 5px;
+    }
+    #block_content {
+        min-height: 200px;
+    }
+    h3 {
+        font-family: 'Syncopate', sans-serif;
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+}
+
+footer {
+    margin-top: 30px;
+    background: #999;
+    height: 50px;
+    p {
+        padding-top: 15px;
+    }
+}
+
+// Flag hover effect
+#belgium {
+    width: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#bouvet_island {
+    width: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#japan {
+    width: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#seychelles {
+    width: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+/* small screen 320 */
+
+@media screen and (max-width: 360px) {
+    body {
+        h1 {
+            font-family: 'Syncopate', sans-serif;
+            font-size: 1em;
+            text-transform: uppercase;
+            &:hover {
+                color: brown;
+            }
+        }
+        h2 {
+            font-family: 'Syncopate', sans-serif;
+            font-size: .8em;
+            text-transform: capitalize;
+            &:hover {
+                color: darkgreen;
+            }
+        }
+        #dyn_content {
+            h3 {
+                font-size: .8em;
+                padding-left: 15px;
+            }
+        }
+    }
+    footer {
+        p {
+            padding-top: 5px;
+        }
+        height: 50px;
+    }
+}
+
+
+/* screen 768 */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    body {
+        h1 {
+            font-family: 'Syncopate', sans-serif;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            &:hover {
+                color: brown;
+            }
+        }
+        h2 {
+            font-family: 'Syncopate', sans-serif;
+            font-size: 1em;
+            text-transform: capitalize;
+            &:hover {
+                color: darkgreen;
+            }
+        }
+        #dyn_content {
+            h3 {
+                font-size: 1em;
+                padding-left: 15px;
+            }
+        }
+    }
+    footer {
+        p {
+            padding-top: 5px;
+        }
+        height: 50px;
+    }
+}
